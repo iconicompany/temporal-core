@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types", "./src/typings"],
+    "baseUrl": ".",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "incremental": true,
+    "outDir": "./dist",
+    "declaration": true,
+    "target": "ESNext"
+  },
+  "include": ["./src", "index.ts"],
+  "exclude": ["./node_modules"]
+}
